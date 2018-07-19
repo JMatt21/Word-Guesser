@@ -4,7 +4,7 @@ This is hangman but playable on the Node.js terminal
 Includes the Inquirer 6.0.0 npm package.
 
 There are 2 objects: letter and word.
-# Letter(char: string)
+## Letter(char: string)
 Only allows alpha characters, spaces, and nothing with a length > 1
 this.char: string
 this.isGuessed: boolean
@@ -13,7 +13,7 @@ Prototypes:
 toString(): string
 checkLetter(char: string): boolean 
 
-# Word (word: string)
+## Word (word: string)
 Requires letter object. 
 this.letters: Array
 this.answer: string
