@@ -5,22 +5,22 @@ Includes the Inquirer 6.0.0 npm package.
 
 There are 2 objects: letter and word.
 ## Letter(char: string)
-Only allows alpha characters, spaces, and nothing with a length > 1
-this.char: string
-this.isGuessed: boolean
+Only allows alpha characters, spaces, and nothing with a length > 1  
+this.char: string  
+this.isGuessed: boolean  
 
-Prototypes:
-toString(): string
+Prototypes:  
+toString(): string  
 checkLetter(char: string): boolean 
 
 ## Word (word: string)
-Requires letter object. 
-this.letters: Array
-this.answer: string
+Requires letter object.  
+this.letters: Array  
+this.answer: string  
 
-Prototypes:
-guess(char: string): boolean
-toString(): string
+Prototypes:  
+guess(char: string): boolean  
+toString(): string  
 
 The game uses inquirer and recursion to continuously prompt the user to guess a letter.
 Only single alphabet letters are accepted.
