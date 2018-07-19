@@ -5,7 +5,7 @@ const Word = function (word) {
     for (letter of word) {
         this.letters.push(new Letter(letter));
     }
-
+    this.answer = word;
 }
 
 Word.prototype.guess = function (char) {
